@@ -8,6 +8,7 @@
 # testing
 /coverage
 
+frontend/my-app/node_modules
 
 # misc
 .DS_Store
