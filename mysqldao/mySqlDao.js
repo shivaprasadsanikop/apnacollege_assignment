@@ -1,4 +1,4 @@
-var mysqlConnection = require(__base + "/mysqlClient.js");
+var mysqlConnection = require("../mySqlClient");
 var bluebird = require("bluebird");
 var db = bluebird.promisifyAll(mysqlConnection.getMySqlConnectionPool());
 
